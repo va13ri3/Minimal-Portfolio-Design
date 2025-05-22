@@ -1,0 +1,47 @@
+.splashscreen {
+    padding: 80px 40px;
+    border-bottom: 2px solid black;
+    background-image: url('../img/on.jpg');
+    justify-content: center;
+}
+
+div [class^="btn"]{
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+
+.blue {
+    color: cadetblue;
+}
+
+.white {
+    color: black; /*change to white*/
+}
+
+i[class*=" fi-brands-"]:before {
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family:'Anton';font-size: 50px;
+
+}
+h2 {
+    font-family: 'Anton';font-size: 25px;
+    font-weight:lighter;
+}
+h5 {
+    font-family: monospace;
+    font-weight:bolder;
+}
+.normal {
+    font-family:'Bellota';
+    font-weight:bold;
+}
+
+.cursive {
+    font-family:'Angkor';font-size: 22px;
+    font-size: xx-large;
+    
+}
